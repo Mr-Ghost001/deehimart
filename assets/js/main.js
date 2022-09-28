@@ -248,3 +248,24 @@
 			._parallax();
 
 })(jQuery);
+
+
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+        alert("SSH Account Copied..");
+    document.body.removeChild(el);
+   
+    }
+
+	function opyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+        alert("V2ray Account Copied..");
+    document.body.removeChild(el);
+   
+    }

@@ -2848,6 +2848,70 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+	
+	  
+	 
+
+	.button2 {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 4px;
+		border: 0;
+		box-shadow: inset 0 0 0 1px rgba(0, 225, 255, 0.137);
+		color: hwb(123 0% 0%) !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 3em;
+		line-height: 3em;
+		padding: 0 2.25em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	.button3 {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 4px;
+		border: 0;
+		box-shadow: inset 0 0 0 1px rgba(0, 225, 255, 0.137);
+		color: #e44c65  !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 3em;
+		line-height: 3em;
+		padding: 0 2.25em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	.button2:hover,
+		.button2:active {
+			box-shadow: inset 0 0 0 1px #48ff00;
+			color: hwb(108 0% 0%) !important;
+		}
+		.button3:hover,
+		.button3:active {
+			box-shadow: inset 0 0 0 1px #e44c65;
+			color: #e44c65 !important;
+		}
+
+
 		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
 		input[type="reset"]:active,
@@ -3586,6 +3650,8 @@ input, select, textarea {
 					color: inherit;
 				}
 
+				
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3597,6 +3663,8 @@ input, select, textarea {
 			}
 
 	}
+
+	
 
 /* Large */
 
