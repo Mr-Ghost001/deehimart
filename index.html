@@ -160,15 +160,42 @@
 
 			<!-- six -->
 				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Suport Us</h2>
-							<p>Share Our Website And Suport Us.</p>
-						</header>
-						<a href="#" class="button">Share</a>
-						
-					</div>
-				</section>
+        <div class="container">
+          <header>
+            <h2>Like Our Website.</h2>
+            <p>Like Our Website and suport us.</p>
+          </header>
+          
+            
+          <div class="collection">
+              <div class="col-4 col-12-xsmall"><a href="https://deehimart.tk" id="clickButton" onClick="onClick()"><button class="button">Likes - <span id="clicks">0</span></button></a></div>
+            </div>
+        </div>
+      </section>
+      
+      <script>
+      var clicks = 0;
+
+function initiateClicks() {
+    var clickStr = localStorage.getItem("clicks");
+    if(clickStr == undefined){
+        localStorage.setItem("clicks", 0);
+        clicks = 0;
+    }else{
+        clicks = parseInt(clickStr);   
+    }
+    document.getElementById("clicks").innerHTML = clicks;
+}
+
+function doClick() {
+    clicks += 1;
+    localStorage.setItem("clicks", clicks);
+    document.getElementById("clicks").innerHTML = clicks;
+}
+
+document.getElementById("clickButton").onclick = doClick;
+initiateClicks();
+</script>
 				
 
 			<!-- Footer -->
